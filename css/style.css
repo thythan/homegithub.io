@@ -1,0 +1,45 @@
+
+.changecontent::after{
+    content: ' ';
+    color: #ffa500;
+    text-shadow: 0px 1px 1px black;
+    animation: changetext 10s infinite linear;
+}
+@keyframes changetext{
+    0%{content: "Cambodia";}
+    10%{content: "Angkor wet";}
+    20%{content: "Ta prom temple";}
+    30%{content: "Angkor Thom Temple";}
+    40%{content: "Bak Kheng Temple";}
+    50%{content: "Boeung Mealea";}
+    60%{content: "Brown";}
+    70%{content: " Khmer Noodles";}
+    80%{content: "Banteay Srei Temple";}
+    90%{content: "Bakong Temple";}
+    100%{content: "Phnom Kulen";}
+} 
+
+.navbar {
+    font-weight: bold;
+    display:flex;
+}
+@media screen and (max-width:330px){
+    #logo{
+        font-size: 15px;
+    }
+}
+.container-fluid{
+    font-size: medium;
+}
+.map{
+    width: 500px;
+    height: 250px;
+    display: flex;
+    
+
+}
+@media screen and (max-width:330px){
+    .map {
+        font-size: 15px;
+    }
+}
